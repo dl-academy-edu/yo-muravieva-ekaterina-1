@@ -7,6 +7,262 @@
     <title>Toys</title>
 </head>
 <body>
-    
+    <header class="header">
+        <a href="#" class="header__logo-link"><img class="pic-logo" src="/" alt="pic-logo"></a>
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__list-item">
+                    <a href="#" class="header__list-link">BLOG</a>
+                </li>
+                <li class="header__list-item">
+                    <a href="#" class="header__list-link">CATALOG</a>
+                </li>
+                <li class="header__list-item">
+                    <a href="#" class="header__list-link">ABOUT US</a>
+                </li>
+            </ul>
+            <ul class="header__list">
+                <li>
+                    <a href="#" class="header__list-link"><img class="icon-search" src="/" alt="icon-search"></a>
+                </li>
+                <li>
+                    <a href="#" class="header__list-link">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="heading__toy">Toy for kids</h1>
+        <div class="breadcrumbs__container">
+            <ul class="breadcrumbs__list">
+                <li class="breadcrumbs__item">
+                    <a href="#" class="breadcrumbs__link">Home</a>
+                </li>
+                <li class="breadcrumbs__item">
+                    <img class="arrow-pic" src="/" alt="arrow-pic">
+                </li>
+                <li class="breadcrumbs__item">
+                    <a href="#" class="breadcrumbs__link">Catalog</a>
+                </li>
+                <li class="breadcrumbs__item">
+                    <img class="arrow-pic" src="/" alt="arrow-pic">
+                </li>
+                <li class="breadcrumbs__item">
+                    <a href="#" class="breadcrumbs__link">Toys</a>
+                </li>
+            </ul>
+        </div>
+        <section class="filters">
+         <div class="filters__cost">
+            <h5 class="filters__heading">Cost</h5>
+            <ul class="slider">
+                <li class="slider__list">
+                    <input class="slider__cost" type="range" min="0" max="500" step="100">
+                </li>
+                <li class="slider__value">
+                    <p class="slider__value-item">0</p>
+                    <p class="slider__value-item">500</p>
+                </li>
+            </ul>
+        </div>
+         <div class="filters__color">
+            <h5 class="filters__heading">Color</h5>
+            <ul class="list__color">
+                <li class="list__color-name">
+                    <input class="color-select" type="checkbox" name="color">
+                    <label class="color-name" for="color">Black</label>
+                </li>
+                <li class="list__color-name">
+                    <input class="color-select" type="checkbox" name="color">
+                    <label class="color-name" for="color">Blue</label>
+                </li>
+                <li class="list__color-name">
+                    <input class="color-select" type="checkbox" name="color">
+                    <label class="color-name" for="color">Green</label>
+                </li>
+                <li class="list__color-name">
+                    <input class="color-select" type="checkbox" name="color">
+                    <label class="color-name" for="color">White</label>
+                </li>
+            </ul>
+        </div>
+         <div class="shipping__type">
+            <h5 class="filters__heading">Delivery</h5>
+            <ul class="list__shipping">
+                <li class="list__shipping-select">
+                    <input class="shipping-inp" type="radio" name="shipping" value="1">
+                    <label class="option-shipping" for="shipping">Free shipping</label>
+                </li>
+                <li class="list__shipping-select">
+                    <input class="shipping-inp" type="radio" name="shipping" value="1">
+                    <label class="option-shipping" for="shipping">Fast shipping</label>
+                </li>
+            </ul>
+        </div>
+         <div class="ammount__filter">
+            <h5 class="filters__heading">Ammount</h5>
+            <ul class="list__ammount">
+                <li class="list__ammount-value">
+                    <input class="ammount-inp" type="radio" name="ammount" value="1">
+                    <label class="option-ammount" for="ammount">0-5</label>
+                </li>
+                <li class="list__ammount-value">
+                    <input class="ammount-inp" type="radio" name="ammount" value="1">
+                    <label class="option-ammount" for="ammount">10-20</label>
+                </li>
+                <li class="list__ammount-value">
+                    <input class="ammount-inp" type="radio" name="ammount" value="1">
+                    <label class="option-ammount" for="ammount">20-50</label>
+                </li>
+            </ul>
+        </div>
+        </section>
+        <section class="toy-catalog">
+            <ul class="toy-catalog__list">
+                <li class="toy-catalog__list-item">
+                    <img class="pic-toys" src="/" alt="pic-toys">
+                    <p class="toy__name">SHARKY BEAN BAG CHAIR COVER</p>
+                    <p class="toy__cost">$60.00 USD</p>
+                </li>
+                <li class="toy-catalog__list-item">
+                    <img class="pic-toys" src="/" alt="pic-toys">
+                    <p class="toy__name">BRASS DECO FRAMES</p>
+                    <p class="toy__cost">$66.00 USD</p>
+                </li>
+                <li class="toy-catalog__list-item">
+                    <img class="pic-toys" src="/" alt="pic-toys">
+                    <p class="toy__name">CIBO FULL APRON</p>
+                    <p class="toy__cost">$60.00 USD</p>
+                </li>
+                <li class="toy-catalog__list-item">
+                    <img class="pic-toys" src="/" alt="pic-toys">
+                    <p class="toy__name">GATCHA GATCHA GUMBALL MACHINE</p>
+                    <p class="toy__cost">$56.00 USD</p>
+                </li>
+                <li class="toy-catalog__list-item">
+                    <img class="pic-toys" src="/" alt="pic-toys">
+                    <p class="toy__name">CHRISTMAS ADVENT SCENTED CANDLE</p>
+                    <p class="toy__cost">$29.00 USD</p>
+                </li>
+                <li class="toy-catalog__list-item">
+                    <img class="pic-toys"
+                     src="/" alt="pic-toys">
+                    <p class="toy__name">TANGLE SPINNING TEA LIGHT</p>
+                    <p class="toy__cost">$56.00 USD</p>
+                </li>
+            </ul>
+            <ul class="pagination__list">
+                <li class="pagination__list">
+                    <button type="button" class="pagination__btn-back"><img class="back" src="/" alt="back"></button>
+                </li>
+                <li class="pagination__list">
+                    <button type="button" class="pagination__btn">1</button>
+                </li>
+                <li class="pagination__list">
+                    <button type="button" class="pagination__btn">2</button>
+                </li>
+                <li class="pagination__list">
+                    <button type="button" class="pagination__btn">3</button>
+                </li>
+                <li class="pagination__list">
+                    <button type="button" class="pagination__btn">4</button>
+                </li>
+                <li class="pagination__list">
+                    <button type="button" class="pagination__btn-forward"><img class="forward" src="/" alt="forward"></button>
+                </li>
+            </ul>
+        </section>
+        <footer class="footer">
+            <nav class="footer__nav">
+                <section class="footer-nvgt">
+                    <h2 class="footer-nvgt__heading">Navigation</h2>
+                        <ul class="footer-nvgt__list">
+                            <li class="footer-nvgt__list-item">
+                                <a href="#" class="footer-nvgt__list-link">About Us</a>
+                            </li>
+                            <li class="footer-nvgt__list-item">
+                                <a href="#" class="footer-nvgt__list-link">Blog</a>
+                            </li>
+                            <li class="footer-nvgt__list-item">
+                                <a href="#" class="footer-nvgt__list-link">Design Services</a>
+                            </li>
+                            <li class="footer-nvgt__list-item">
+                                <a href="#" class="footer-nvgt__list-link">Featured On</a>
+                            </li>
+                            <li class="footer-nvgt__list-item">
+                                <a href="#" class="footer-nvgt__list-link">2018 Holiday Catalog</a>
+                            </li>
+                            <li class="footer-nvgt__list-item">
+                                <a href="#" class="footer-nvgt__list-link">Shop By Designer</a>
+                            </li>
+                        </ul>
+                        
+                </section>
+            </nav>
+            <section class="useful-info">
+                <h2 class="useful-info__heading">Customer Information</h2>
+                <div class="useful-info__cat">
+                    <ul class="useful-info__list">
+                        <li class="useful-info__list-item">
+                            <a href="#" class="useful-info__list-link">Contact Us</a>
+                        </li>
+                        <li class="useful-info__list-item">
+                            <a href="#" class="useful-info__list-link">Sale Exclusions</a>
+                        </li>
+                        <li class="useful-info__list-item">
+                            <a href="#" class="useful-info__list-link">Shipping & Returns</a>
+                        </li>
+                        <li class="useful-info__list-item">
+                            <a href="#" class="useful-info__list-link">Terms & Conditions</a>
+                        </li>
+                        <li class="useful-info__list-item">
+                            <a href="#" class="useful-info__list-link">Privacy Policy</a>
+                        </li>
+                        <li class="useful-info__list-item">
+                            <a href="#" class="useful-info__list-link">Search</a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="connect">
+                <h2 class="connect__heading">Connect</h2>
+                <input type="text" name="text" placeholder="Email" class="connect__input">
+                <button type="submit" class="connect__btn">join</button>
+                <div class="soc-net">
+                    <ul class="soc-net__list">
+                        <li class="soc-net__list-item">
+                            <a href="#" class="soc-net__list-link"><img class="soc-net-icon" src="/" alt="soc-net-icon"></a>
+                        </li>
+                        <li class="soc-net__list-item">
+                            <a href="#" class="soc-net__list-link"><img class="soc-net-icon" src="/" alt="soc-net-icon"></a>
+                        </li>
+                        <li class="soc-net__list-item">
+                            <a href="#" class="soc-net__list-link"><img class="soc-net-icon" src="/" alt="soc-net-icon"></a>
+                        </li>
+                        <li class="soc-net__list-item">
+                            <a href="#" class="soc-net__list-link"><img class="soc-net-icon" src="/" alt="soc-net-icon"></a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="design">
+                <div class="rating">
+                    <p class="raiting__heading">Company Rating</p>
+                    <fieldset class="rating__field">
+                        <legend>Company Rating</legend>
+                        <div>
+                            <input class="rating__star" type="radio" name="star" value="1">
+                            <input class="rating__star" type="radio" name="star" value="2">
+                            <input class="rating__star" type="radio" name="star" value="3">
+                            <input class="rating__star" type="radio" name="star" value="4">
+                            <input class="rating__star" type="radio" name="star" value="5">
+                        </div>
+                    </fieldset>
+                </div>
+                <p class="copyright-info">Copyright © 2018 Dlk • Design Life Kids</p>
+                <p class="copyright-info">Web Design — Direct Line Development</p>
+            </section>
+        </footer>
+    </main>    
 </body>
 </html>
