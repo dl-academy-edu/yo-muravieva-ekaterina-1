@@ -1,0 +1,114 @@
+/* banner */
+
+.banner {
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+
+}
+
+/* 01 */
+
+.banner__numb {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 60px;
+    line-height: 73px;
+    color: rgba(30, 6, 6, 0.05);
+}
+
+/* THE OOH NOO COLLECTION */
+
+.banner__heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 110%;
+    color: #1E0606;
+    text-transform: uppercase;
+}
+
+/* Designed in Slovenia */
+
+.banner__list-text {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+}
+
+/* EXPLORE NOW button */
+
+.banner_btn {
+    padding: 11px 40px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border: none;
+    background: #000000;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+/* monster pic */
+
+.pic-monster {
+    /* position: absolute; */
+    /* margin-top: 142px; */
+    /* margin-left: 555px; */
+}
+
+/* Category Products heading */
+
+.category__heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+/* Category product list */
+
+.category__list {
+    margin-top: 80px;
+    display: flex;
+}
+
+/* arrow-button under category */
+
+.category__btn {
+    padding: 5px 12px;
+    border: none;
+    background: rgba(112, 187, 220, 0.2);
+    cursor: pointer;
+}
+
+.category__description {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+}
+
+.zxc {
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+}
+
+.category__description {
+    word-wrap: break-word;
+    width: 680px;
+}
