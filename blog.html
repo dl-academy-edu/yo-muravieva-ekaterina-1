@@ -6,45 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,600;1,700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/blog.css">
     <title>Blog</title>
 </head>
 <body>
-    <header class="header">
-        <a href="./index.html" class="header__logo-link"><img class="pic-logo" src="./pic/dlk-logo.svg" alt="pic-logo"></a>
-        <nav class="header__nav">
-            <ul class="header__list-nav">
-                <li class="header__nav-item">
-                    <a href="./blog.html" class="header__nav-link">BLOG</a>
-                </li>
-                <li class="header__list-item">
-                    <a href="./catalog.html" class="header__nav-link">CATALOG</a>
-                </li>
-                <li class="header__list-item">
-                    <a href="#" class="header__nav-link">ABOUT US</a>
-                </li>
-            </ul>
-            <ul class="header__list">
-                <li>
-                    <button class="search__btn" type="button"><img class="icon-search" src="./pic/icon-search.svg" alt="icon-search"></button>
-                </li>
-                <li>
-                    <a href="./contacts.html" class="header__contact-link">Contact Us</a>
-                </li>
-            </ul>
-        </nav>
+    <header class="header container">
+        <ul class="header__list-nav">
+            <li class="header__logo">
+                <a href="./index.html" class="header__logo-link"><img class="pic-logo" src="./pic/dlk-logo.svg" alt="pic-logo"></a>
+            </li>
+            <li class="header__nav-item">
+                <a href="./blog.html" class="header__nav-link">BLOG</a>
+            </li>
+            <li class="header__list-item">
+                <a href="./catalog.html" class="header__nav-link">CATALOG</a>
+            </li>
+            <li class="header__list-item">
+                <a href="#" class="header__nav-link">ABOUT US</a>
+            </li>
+        </ul>
+        <ul class="header__list">
+            <li class="header__list-contact">
+                <button class="search__btn" type="button"><img class="icon-search" src="./pic/icon-search.svg" alt="icon-search"></button>
+            </li>
+            <li class="header__list-contact">
+                <a href="./contacts.html" class="header__contact-link">Contact Us</a>
+            </li>
+        </ul>
     </header>
-    <main>
-        <h1 class="blog__heading">Blog</h1>
+    <main class="main container">
+        <h1 class="pages__heading">Blog</h1>
         <div class="breadcrumbs__container">
             <ul class="breadcrumbs__list">
                 <li class="breadcrumbs__item">
-                    <a href="./index.html" class="breadcrumbs__link">Home</a>
+                    <a href="./index.html" class="breadcrumbs-fat__link">Home</a>
                 </li>
                 <li class="breadcrumbs__item">
-                    <img class="arrow-pic" src="./pic/arrow.svg" alt="arrow-pic">
+                    <button class="crumbs__btn" type="button"></button>
                 </li>
                 <li class="breadcrumbs__item">
                     <a href="./blog.html" class="breadcrumbs__link">Blog</a>
@@ -56,132 +57,156 @@
                 <li class="blog-info__list-item">
                     <img class="post-pic" src="./pic/constructor.jpg" alt="post-pic">
                     <p class="publication-date">23rd August 2018</p>
-                    <h3 class="post-name">Top 5 fastest growing it service companies in philly</h3>
+                    <h2 class="post-name">Top 5 fastest growing it service companies in philly</h2>
                     <p class="blog-text">Direct Line Development’s Team is excited to announce that we received UpCity’s 2019 Local Excellence Award! This prestigious award is annually presented to the Top 1% of service providers in the given marketplace.</p>
                 </li>
                 <li class="blog-info__list-item">
                     <img class="post-pic" src="./pic/bear.jpg" alt="post-pic">
                     <p class="publication-date">23rd August 2018</p>
-                    <h3 class="post-name">Best financial</h3>
+                    <h2 class="post-name">Best financial</h2>
                     <p class="blog-text">Direct Line Development is honored to be recognized as one of the Top 100 Fastest Growing Companies 2019 in Philadelphia, according to Growjo’s ranking.</p>
                 </li>
                 <li class="blog-info__list-item">
                     <img class="post-pic" src="./pic/details.jpg" alt="post-pic">
                     <p class="publication-date">23rd August 2018</p>
-                    <h3 class="post-name">Company logo or brand identity: which one is more important? brand identity</h3>
+                    <h2 class="post-name">Company logo or brand identity: which one is more important? brand identity</h2>
                     <p class="blog-text">To survive in the world of digital marketing, you need to keep up with the latest SEO trends. Here are our simple, but effective, SEO tips for small business success.</p>
                 </li>
                 <li class="blog-info__list-item">
                     <img class="post-pic" src="./pic/Buzzlightyear.jpg" alt="post-pic">
                     <p class="publication-date">23rd August 2018</p>
-                    <h3 class="post-name">Best financial</h3>
+                    <h2 class="post-name">Best financial</h2>
                     <p class="blog-text">Direct Line Development is honored to be recognized as one of the Top 100 Fastest Growing Companies 2019 in Philadelphia, according to Growjo’s ranking.</p>
                 </li>
                 <li class="blog-info__list-item">
                     <img class="post-pic" src="./pic/rapunzel.jpg" alt="post-pic">
                     <p class="publication-date">23rd August 2018</p>
-                    <h3 class="post-name">Company logo or brand identity: which one is more important? brand identity</h3>
+                    <h2 class="post-name">Company logo or brand identity: which one is more important? brand identity</h2>
                     <p class="blog-text">To survive in the world of digital marketing, you need to keep up with the latest SEO trends. Here are our simple, but effective, SEO tips for small business success.</p>
                 </li>
                 <li class="blog-info__list-item">
                     <img class="post-pic" src="./pic/dice.jpg" alt="post-pic">
                     <p class="publication-date">23rd August 2018</p>
-                    <h3 class="post-name">Top 5 fastest growing it service companies in philly</h3>
+                    <h2 class="post-name">Top 5 fastest growing it service companies in philly</h2>
                     <p class="blog-text">Direct Line Development’s Team is excited to announce that we received UpCity’s 2019 Local Excellence Award! This prestigious award is annually presented to the Top 1% of service providers in the given marketplace.</p>
                 </li>
             </ul>
         </section>
-        <footer class="footer">
-            <nav class="footer__nav">
-                <section class="footer-nvgt">
-                    <h2 class="footer-nvgt__heading">Navigation</h2>
-                        <ul class="footer-nvgt__list">
-                            <li class="footer-nvgt__list-item">
-                                <a href="#" class="footer-nvgt__list-link">About Us</a>
-                            </li>
-                            <li class="footer-nvgt__list-item">
-                                <a href="#" class="footer-nvgt__list-link">Blog</a>
-                            </li>
-                            <li class="footer-nvgt__list-item">
-                                <a href="#" class="footer-nvgt__list-link">Design Services</a>
-                            </li>
-                            <li class="footer-nvgt__list-item">
-                                <a href="#" class="footer-nvgt__list-link">Featured On</a>
-                            </li>
-                            <li class="footer-nvgt__list-item">
-                                <a href="#" class="footer-nvgt__list-link">2018 Holiday Catalog</a>
-                            </li>
-                            <li class="footer-nvgt__list-item">
-                                <a href="#" class="footer-nvgt__list-link">Shop By Designer</a>
-                            </li>
-                        </ul>
-                        
-                </section>
-            </nav>
-            <section class="useful-info">
-                <h2 class="useful-info__heading">Customer Information</h2>
-                <div class="useful-info__cat">
-                    <ul class="useful-info__list">
-                        <li class="useful-info__list-item">
-                            <a href="#" class="useful-info__list-link">Contact Us</a>
+        <section class="pages">
+            <ul class="pagination__list">
+                <li class="pagination__list-item">
+                    <button type="button" class="pagination__btn-back"><img class="back" src="./pic/arrow-back.svg" alt="back"></button>
+                </li>
+                <div class="pages-numb container-numb">
+                    <ul class="pages-numb__list">
+                        <li class="pagination__list-numb">
+                            <button type="button" class="pagination__btn">1</button>
                         </li>
-                        <li class="useful-info__list-item">
-                            <a href="#" class="useful-info__list-link">Sale Exclusions</a>
+                        <li class="pagination__list-numb">
+                            <button type="button" class="pagination__btn">2</button>
                         </li>
-                        <li class="useful-info__list-item">
-                            <a href="#" class="useful-info__list-link">Shipping & Returns</a>
+                        <li class="pagination__list-numb">
+                            <button type="button" class="pagination__btn">3</button>
                         </li>
-                        <li class="useful-info__list-item">
-                            <a href="#" class="useful-info__list-link">Terms & Conditions</a>
-                        </li>
-                        <li class="useful-info__list-item">
-                            <a href="#" class="useful-info__list-link">Privacy Policy</a>
-                        </li>
-                        <li class="useful-info__list-item">
-                            <a href="#" class="useful-info__list-link">Search</a>
+                        <li class="pagination__list-numb">
+                            <button type="button" class="pagination__btn">4</button>
                         </li>
                     </ul>
                 </div>
-            </section>
-            <section class="connect">
-                <h2 class="connect__heading">Connect</h2>
-                <input type="text" name="text" placeholder="Email" class="connect__input">
-                <button type="submit" class="connect__btn">join</button>
-                <div class="soc-net">
-                    <ul class="soc-net__list">
-                        <li class="soc-net__list-item">
-                            <a href="#" class="soc-net__list-link"><img class="soc-net-icon" src="./pic/facebook.svg" alt="soc-net-icon"></a>
+                <li class="pagination__list-item">
+                    <button type="button" class="pagination__btn-forward"><img class="forward" src="./pic/arrow-forward.svg" alt="forward"></button>
+                </li>
+            </ul>
+        </section>
+    </main>   
+    <footer class="footer">
+        <div class="footer__container">
+        <nav class="footer__nav">
+            <section class="footer-nvgt">
+                <h2 class="footer-element__heading">Navigation</h2>
+                    <ul class="footer-nvgt__list">
+                        <li class="footer-nvgt__list-item">
+                            <a href="#" class="footer__list-link">About Us</a>
                         </li>
-                        <li class="soc-net__list-item">
-                            <a href="#" class="soc-net__list-link"><img class="soc-net-icon" src="./pic/twitter.svg" alt="soc-net-icon"></a>
+                        <li class="footer-nvgt__list-item">
+                            <a href="#" class="footer__list-link">Blog</a>
                         </li>
-                        <li class="soc-net__list-item">
-                            <a href="#" class="soc-net__list-link"><img class="soc-net-icon" src="./pic/Pinterest.svg" alt="soc-net-icon"></a>
+                        <li class="footer-nvgt__list-item">
+                            <a href="#" class="footer__list-link">Design Services</a>
                         </li>
-                        <li class="soc-net__list-item">
-                            <a href="#" class="soc-net__list-link"><img class="soc-net-icon" src="./pic/Instagram.svg" alt="soc-net-icon"></a>
+                        <li class="footer-nvgt__list-item">
+                            <a href="#"class="footer__list-link">Featured On</a>
+                        </li>
+                        <li class="footer-nvgt__list-item">
+                            <a href="#" class="footer__list-link">2018 Holiday Catalog</a>
+                        </li>
+                        <li class="footer-nvgt__list-item">
+                            <a href="#" class="footer__list-link">Shop By Designer</a>
                         </li>
                     </ul>
-                </div>
             </section>
-            <section class="design">
-                <div class="rating">
-                    <p class="raiting__heading">Company Rating</p>
-                    <fieldset class="rating__field">
-                        <legend>Company Rating</legend>
-                        <div>
-                            <input class="rating__star" type="radio" name="star" value="1">
-                            <input class="rating__star" type="radio" name="star" value="2">
-                            <input class="rating__star" type="radio" name="star" value="3">
-                            <input class="rating__star" type="radio" name="star" value="4">
-                            <input class="rating__star" type="radio" name="star" value="5">
-                        </div>
-                    </fieldset>
-                </div>
-                <p class="copyright-info">Copyright © 2018 Dlk • Design Life Kids</p>
-                <p class="copyright-info">Web Design — Direct Line Development</p>
-            </section>
-        </footer>
-    </main>    
+        </nav>
+        <section class="useful-info">
+            <h2 class="footer-element__heading">Customer Information</h2>
+                <ul class="useful-info__list">
+                    <li class="useful-info__list-item">
+                        <a href="#" class="footer__list-link">Contact Us</a>
+                    </li>
+                    <li class="useful-info__list-item">
+                        <a href="#" class="footer__list-link">Sale Exclusions</a>
+                    </li>
+                    <li class="useful-info__list-item">
+                        <a href="#" class="footer__list-link">Shipping & Returns</a>
+                    </li>
+                    <li class="useful-info__list-item">
+                        <a href="#" class="footer__list-link">Terms & Conditions</a>
+                    </li>
+                    <li class="useful-info__list-item">
+                        <a href="#" class="footer__list-link">Privacy Policy</a>
+                    </li>
+                    <li class="useful-info__list-item">
+                        <a href="#" class="footer__list-link">Search</a>
+                    </li>
+                </ul>
+        </section>
+        <section class="connect">
+            <h2 class="footer-element__heading">Connect</h2>
+            <input type="text" name="text" placeholder="Email" class="connect__input">
+            <button type="submit" class="connect__btn">join</button>
+            <div class="soc-net">
+                <ul class="soc-net__list">
+                    <li class="soc-net__list-item">
+                        <a href="#" class="soc-net__list-link"><img class="soc-net-icon" src="./pic/facebook.svg" alt="soc-net-icon"></a>
+                    </li>
+                    <li class="soc-net__list-item">
+                        <a href="#" class="soc-net__list-link"><img class="soc-net-icon" src="./pic/twitter.svg" alt="soc-net-icon"></a>
+                    </li>
+                    <li class="soc-net__list-item">
+                        <a href="#" class="soc-net__list-link"><img class="soc-net-icon" src="./pic/Pinterest.svg" alt="soc-net-icon"></a>
+                    </li>
+                    <li class="soc-net__list-item">
+                        <a href="#" class="soc-net__list-link"><img class="soc-net-icon" src="./pic/Instagram.svg" alt="soc-net-icon"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </section>
+        <section class="design">
+            <div class="rating">
+                <fieldset class="rating__field">
+                    <legend class="rating__name">Company Rating</legend>
+                    <div>
+                        <input class="rating__star" type="radio" name="star" value="1">
+                        <input class="rating__star" type="radio" name="star" value="2">
+                        <input class="rating__star" type="radio" name="star" value="3">
+                        <input class="rating__star" type="radio" name="star" value="4">
+                        <input class="rating__star" type="radio" name="star" value="5">
+                    </div>
+                </fieldset>
+            </div>
+            <p class="copyright-dlk">Copyright © 2018 Dlk • Design Life Kids</p>
+            <p class="copyright-info">Web Design — Direct Line Development</p>
+        </section>
+    </footer> 
 </body>
 </html>

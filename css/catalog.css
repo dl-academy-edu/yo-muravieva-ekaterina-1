@@ -1,0 +1,112 @@
+/* products category */
+
+.category__list {
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    margin-right: auto;
+    column-gap: 25px;
+    flex-wrap: wrap;
+}
+
+.second-line {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 200px;
+}
+
+.square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+}
+
+.product-name {
+    max-width: 130px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.chel {
+    max-width: 192px;
+}
+
+.sweater {
+    background-color: #DBE4DB;
+    background-image: url(../pic/apparel-kids.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 270px;
+    width: 280px;
+}
+
+.sock {
+    background-color: #EADDD3;
+    background-image: url(../pic/holiday-shop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 270px;
+    width: 280px;
+}
+
+.deer {
+    background-color: #F8F2DA;
+    background-image: url(../pic/toys.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 270px;
+    width: 280px;
+}
+
+.man {
+    background-color: #D5D4E1;
+    background-image: url(../pic/accessories.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 270px;
+    width: 280px;
+}
+
+.flamingos {
+    background-color: #F3D0DB;
+    background-image: url(../pic/sale.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 270px;
+    width: 280px;
+}
+
+.shirt {
+    background-color: #E5EAF8;
+    background-image: url(../pic/apparel-adults.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 270px;
+    width: 280px;
+}
+
+/* product description */
+
+.description {
+    margin-top: 55px;
+    margin-left: 200px;
+    margin-bottom: 55px;
+}
+
+.description__info {
+    max-width: 680px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+}

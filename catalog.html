@@ -6,46 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,400;1,600;1,700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/catalog.css">
     <title>Catalog</title>
 </head>
 <body>
-    <header class="header">
-        <a href="./index.html" class="header__logo-link"><img class="pic-logo" src="./pic/dlk-logo.svg" alt="pic-logo"></a>
-        <nav class="header__nav">
-            <ul class="header__list-nav">
-                <li class="header__nav-item">
-                    <a href="./blog.html" class="header__nav-link">BLOG</a>
-                </li>
-                <li class="header__list-item">
-                    <a href="./catalog.html" class="header__nav-link">CATALOG</a>
-                </li>
-                <li class="header__list-item">
-                    <a href="#" class="header__nav-link">ABOUT US</a>
-                </li>
-            </ul>
-            <ul class="header__list">
-                <li>
-                    <button class="search__btn" type="button"><img class="icon-search" src="./pic/icon-search.svg" alt="icon-search"></button>
-                </li>
-                <li>
-                    <a href="./contacts.html" class="header__contact-link">Contact Us</a>
-                </li>
-            </ul>
-        </nav>
+    <header class="header container">
+        <ul class="header__list-nav">
+            <li class="header__logo">
+                <a href="./index.html" class="header__logo-link"><img class="pic-logo" src="./pic/dlk-logo.svg" alt="pic-logo"></a>
+            </li>
+            <li class="header__nav-item">
+                <a href="./blog.html" class="header__nav-link">BLOG</a>
+            </li>
+            <li class="header__list-item">
+                <a href="./catalog.html" class="header__nav-link">CATALOG</a>
+            </li>
+            <li class="header__list-item">
+                <a href="#" class="header__nav-link">ABOUT US</a>
+            </li>
+        </ul>
+        <ul class="header__list">
+            <li class="header__list-contact">
+                <button class="search__btn" type="button"><img class="icon-search" src="./pic/icon-search.svg" alt="icon-search"></button>
+            </li>
+            <li class="header__list-contact">
+                <a href="./contacts.html" class="header__contact-link">Contact Us</a>
+            </li>
+        </ul>
     </header>
-    <main>
-        <h1 class="category__heading">Category Products</h1>
+    <main class="main container">
+        <h1 class="pages__heading">Category Products</h1>
         <div class="breadcrumbs__container">
             <ul class="breadcrumbs__list">
                 <li class="breadcrumbs__item">
-                    <a href="./index.html" class="breadcrumbs__link">Home</a>
+                    <a href="./index.html" class="breadcrumbs-fat__link">Home</a>
                 </li>
-
                 <li class="breadcrumbs__item">
-                    <img class="arrow-pic" src="./pic/arrow.svg" alt="arrow-pic">
+                    <button class="crumbs__btn" type="button"></button>
                 </li>
                 <li class="breadcrumbs__item">
                     <a href="./catalog.html" class="breadcrumbs__link">Catalog</a>
@@ -55,122 +55,147 @@
         <section class="category">
             <ul class="category__list">
                 <li class="category__list-item">
-                    <a href="#" class="category__list-link"><img class="pic-blocks" src="./pic/apparel-kids.png" alt="pic-blocks">APPAREL KIDS</a>
+                    <a href="./toys.html" class="category__list-link">
+                        <div class="square sweater">
+                            <p class="product-name">APPAREL KIDS</p>
+                        </div>
+                    </a>
                 </li>
                 <li class="category__list-item">
-                    <a href="#" class="category__list-link"><img class="pic-blocks" src="./pic/holiday-shop.png" alt="pic-blocks">HOLIDAY SHOP</a>
+                    <a href="./toys.html" class="category__list-link">
+                        <div class="square sock">
+                            <p class="product-name">HOLIDAY SHOP</p>
+                        </div>
+                    </a>
                 </li>
                 <li class="category__list-item">
-                    <a href="/toys.html" class="category__list-link"><img class="pic-blocks" src="./pic/toys.png" alt="pic-blocks">TOYS</a>
+                    <a href="./toys.html" class="category__list-link">
+                        <div class="square deer">
+                            <p class="product-name">TOYS</p>
+                        </div>
+                    </a>
                 </li>
-                <li class="category__list-item">
-                    <a href="#" class="category__list-link"><img class="pic-blocks" src="./pic/accessories.png" alt="pic-blocks">ACCESSORIES</a>
-                </li>
-                <li class="category__list-item">
-                    <a href="#" class="category__list-link"><img class="pic-blocks" src="./pic/sale.png" alt="pic-blocks">SALE</a>
-                </li>
-                <li class="category__list-item">
-                    <a href="#" class="category__list-link"><img class="pic-blocks" src="./pic/apparel-adults.png" alt="pic-blocks">APPAREL ADULTS</a>
-                </li>
+                <div class="category__list second-line">
+                    <li class="category__list-item">
+                        <a href="./toys.html" class="category__list-link">
+                            <div class="square man">
+                                <p class="product-name">ACCESSORIES</p>
+                            </div>
+                        </a>
+                    </li>
+                    </li>
+                    <li class="category__list-item">
+                        <a href="./toys.html" class="category__list-link">
+                            <div class="square flamingos">
+                                <p class="product-name">SALE</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="category__list-item">
+                        <a href="./toys.html" class="category__list-link">
+                            <div class="square shirt">
+                                <p class="product-name">APPAREL ADULTS</p>
+                            </div>
+                        </a>
+                    </li>
+                </div>
             </ul>
         </section>
         <section class="description">
-            <h2 class="descrtiption__heading">Product Description</h2>
+            <h2 class="pages__heading">Product Description</h2>
             <p class="description__info">Interactive doll Zapf Creation Baby Born Sister can drink from a bottle and almost really cry. You can even bathe her, just like a little sister.</p>
             <p class="description__info">A toy with a height of 43 cm bends its knees, the head rotates, it can stand upright. Such a doll will be an excellent choice for a gift for a girl from 4 years old.</p>
             <p class="description__info">The set includes a miniature set of fashionable clothes, a hairbrush, a bottle for water, a pair of hairpins and elastic bands for hair, as well as two bracelets: one for the doll, the other for her young mistress.</p>
         </section>
-        <footer class="footer">
-            <nav class="footer__nav">
-                <section class="footer-nvgt">
-                    <h2 class="footer-nvgt__heading">Navigation</h2>
-                        <ul class="footer-nvgt__list">
-                            <li class="footer-nvgt__list-item">
-                                <a href="#" class="footer-nvgt__list-link">About Us</a>
-                            </li>
-                            <li class="footer-nvgt__list-item">
-                                <a href="#" class="footer-nvgt__list-link">Blog</a>
-                            </li>
-                            <li class="footer-nvgt__list-item">
-                                <a href="#" class="footer-nvgt__list-link">Design Services</a>
-                            </li>
-                            <li class="footer-nvgt__list-item">
-                                <a href="#" class="footer-nvgt__list-link">Featured On</a>
-                            </li>
-                            <li class="footer-nvgt__list-item">
-                                <a href="#" class="footer-nvgt__list-link">2018 Holiday Catalog</a>
-                            </li>
-                            <li class="footer-nvgt__list-item">
-                                <a href="#" class="footer-nvgt__list-link">Shop By Designer</a>
-                            </li>
-                        </ul>
-                        
-                </section>
-            </nav>
-            <section class="useful-info">
-                <h2 class="useful-info__heading">Customer Information</h2>
-                <div class="useful-info__cat">
-                    <ul class="useful-info__list">
-                        <li class="useful-info__list-item">
-                            <a href="#" class="useful-info__list-link">Contact Us</a>
+    </main>
+    <footer class="footer">
+        <div class="footer__container">
+        <nav class="footer__nav">
+            <section class="footer-nvgt">
+                <h2 class="footer-element__heading">Navigation</h2>
+                    <ul class="footer-nvgt__list">
+                        <li class="footer-nvgt__list-item">
+                            <a href="#" class="footer__list-link">About Us</a>
                         </li>
-                        <li class="useful-info__list-item">
-                            <a href="#" class="useful-info__list-link">Sale Exclusions</a>
+                        <li class="footer-nvgt__list-item">
+                            <a href="#" class="footer__list-link">Blog</a>
                         </li>
-                        <li class="useful-info__list-item">
-                            <a href="#" class="useful-info__list-link">Shipping & Returns</a>
+                        <li class="footer-nvgt__list-item">
+                            <a href="#" class="footer__list-link">Design Services</a>
                         </li>
-                        <li class="useful-info__list-item">
-                            <a href="#" class="useful-info__list-link">Terms & Conditions</a>
+                        <li class="footer-nvgt__list-item">
+                            <a href="#"class="footer__list-link">Featured On</a>
                         </li>
-                        <li class="useful-info__list-item">
-                            <a href="#" class="useful-info__list-link">Privacy Policy</a>
+                        <li class="footer-nvgt__list-item">
+                            <a href="#" class="footer__list-link">2018 Holiday Catalog</a>
                         </li>
-                        <li class="useful-info__list-item">
-                            <a href="#" class="useful-info__list-link">Search</a>
+                        <li class="footer-nvgt__list-item">
+                            <a href="#" class="footer__list-link">Shop By Designer</a>
                         </li>
                     </ul>
-                </div>
             </section>
-            <section class="connect">
-                <h2 class="connect__heading">Connect</h2>
-                <input type="text" name="text" placeholder="Email" class="connect__input">
-                <button type="submit" class="connect__btn">join</button>
-                <div class="soc-net">
-                    <ul class="soc-net__list">
-                        <li class="soc-net__list-item">
-                            <a href="#" class="soc-net__list-link"><img class="soc-net-icon" src="./pic/facebook.svg" alt="soc-net-icon"></a>
-                        </li>
-                        <li class="soc-net__list-item">
-                            <a href="#" class="soc-net__list-link"><img class="soc-net-icon" src="./pic/twitter.svg" alt="soc-net-icon"></a>
-                        </li>
-                        <li class="soc-net__list-item">
-                            <a href="#" class="soc-net__list-link"><img class="soc-net-icon" src="./pic/Pinterest.svg" alt="soc-net-icon"></a>
-                        </li>
-                        <li class="soc-net__list-item">
-                            <a href="#" class="soc-net__list-link"><img class="soc-net-icon" src="./pic/Instagram.svg" alt="soc-net-icon"></a>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <section class="design">
-                <div class="rating">
-                    <p class="raiting__heading">Company Rating</p>
-                    <fieldset class="rating__field">
-                        <legend>Company Rating</legend>
-                        <div>
-                            <input class="rating__star" type="radio" name="star" value="1">
-                            <input class="rating__star" type="radio" name="star" value="2">
-                            <input class="rating__star" type="radio" name="star" value="3">
-                            <input class="rating__star" type="radio" name="star" value="4">
-                            <input class="rating__star" type="radio" name="star" value="5">
-                        </div>
-                    </fieldset>
-                </div>
-                <p class="copyright-info">Copyright © 2018 Dlk • Design Life Kids</p>
-                <p class="copyright-info">Web Design — Direct Line Development</p>
-            </section>
-        </footer>
-    </main>    
+        </nav>
+        <section class="useful-info">
+            <h2 class="footer-element__heading">Customer Information</h2>
+                <ul class="useful-info__list">
+                    <li class="useful-info__list-item">
+                        <a href="#" class="footer__list-link">Contact Us</a>
+                    </li>
+                    <li class="useful-info__list-item">
+                        <a href="#" class="footer__list-link">Sale Exclusions</a>
+                    </li>
+                    <li class="useful-info__list-item">
+                        <a href="#" class="footer__list-link">Shipping & Returns</a>
+                    </li>
+                    <li class="useful-info__list-item">
+                        <a href="#" class="footer__list-link">Terms & Conditions</a>
+                    </li>
+                    <li class="useful-info__list-item">
+                        <a href="#" class="footer__list-link">Privacy Policy</a>
+                    </li>
+                    <li class="useful-info__list-item">
+                        <a href="#" class="footer__list-link">Search</a>
+                    </li>
+                </ul>
+        </section>
+        <section class="connect">
+            <h2 class="footer-element__heading">Connect</h2>
+            <input type="text" name="text" placeholder="Email" class="connect__input">
+            <button type="submit" class="connect__btn">join</button>
+            <div class="soc-net">
+                <ul class="soc-net__list">
+                    <li class="soc-net__list-item">
+                        <a href="#" class="soc-net__list-link"><img class="soc-net-icon" src="./pic/facebook.svg" alt="soc-net-icon"></a>
+                    </li>
+                    <li class="soc-net__list-item">
+                        <a href="#" class="soc-net__list-link"><img class="soc-net-icon" src="./pic/twitter.svg" alt="soc-net-icon"></a>
+                    </li>
+                    <li class="soc-net__list-item">
+                        <a href="#" class="soc-net__list-link"><img class="soc-net-icon" src="./pic/Pinterest.svg" alt="soc-net-icon"></a>
+                    </li>
+                    <li class="soc-net__list-item">
+                        <a href="#" class="soc-net__list-link"><img class="soc-net-icon" src="./pic/Instagram.svg" alt="soc-net-icon"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </section>
+        <section class="design">
+            <div class="rating">
+                <fieldset class="rating__field">
+                    <legend class="rating__name">Company Rating</legend>
+                    <div>
+                        <input class="rating__star" type="radio" name="star" value="1">
+                        <input class="rating__star" type="radio" name="star" value="2">
+                        <input class="rating__star" type="radio" name="star" value="3">
+                        <input class="rating__star" type="radio" name="star" value="4">
+                        <input class="rating__star" type="radio" name="star" value="5">
+                    </div>
+                </fieldset>
+            </div>
+            <p class="copyright-dlk">Copyright © 2018 Dlk • Design Life Kids</p>
+            <p class="copyright-info">Web Design — Direct Line Development</p>
+        </section>
+    </footer>    
 </body>
 </html>

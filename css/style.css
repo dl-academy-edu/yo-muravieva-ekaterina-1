@@ -1,10 +1,49 @@
 /* banner */
 
 .banner {
-    /* position: relative; */
-    display: flex;
+    position: relative;
+    display: block;
     align-items: center;
+    margin-bottom: 70px;
+    width: 1180px;
+    height: 500px;
+    margin-top: -25px;
+}
 
+/* banner color */
+
+.element::before {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 1180px;
+    height: 372px;
+    right: 0;
+    top: 64px;
+    background: #EEE4DB;
+    z-index: 5;
+}
+
+/* = */
+
+.banner__list-btn {
+    left: 18px;
+    top: 21px;
+    position: relative;
+    z-index: 10;
+}
+
+.banner__switch-btn {
+    width: 31px;
+    height: 3px;
+    border: none;
+    background-color: #D6CAC2;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.active {
+    background-color: #1E060699;
 }
 
 /* 01 */
@@ -15,7 +54,18 @@
     font-weight: 200;
     font-size: 60px;
     line-height: 73px;
-    color: rgba(30, 6, 6, 0.05);
+    color: rgba(30, 6, 6, 0.1);
+    position: relative;
+    top: 100px;
+    left: 28px;
+    z-index: 10;
+}
+
+.banner__list {
+    position: relative;
+    left: 133px;
+    top: -79px;
+    z-index: 10;
 }
 
 /* THE OOH NOO COLLECTION */
@@ -28,6 +78,8 @@
     line-height: 110%;
     color: #1E0606;
     text-transform: uppercase;
+    word-wrap: break-word;
+    width: 307px;
 }
 
 /* Designed in Slovenia */
@@ -44,7 +96,7 @@
 /* EXPLORE NOW button */
 
 .banner_btn {
-    padding: 11px 40px;
+    padding: 9px 22px;
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 700;
@@ -60,12 +112,42 @@
 /* monster pic */
 
 .pic-monster {
-    /* position: absolute; */
-    /* margin-top: 142px; */
-    /* margin-left: 555px; */
+    background-image: url(../pic/pic-monster.png);
+    width: 635px;
+    height: 461px;
+    right: 100px;
+    top: -25px;
+    position: absolute;
+    z-index: 10;
+}
+
+/* free shipping */
+
+.banner__text {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    /* font */
+    display: flex;
+    position: relative;
+    top: -16px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+    background-color: #C29974;
+    width: 1180px;
+    height: 39px;
 }
 
 /* Category Products heading */
+
+.category {
+    margin-bottom: 90px;
+}
 
 .category__heading {
     font-family: 'Montserrat';
@@ -80,11 +162,79 @@
 /* Category product list */
 
 .category__list {
-    margin-top: 80px;
     display: flex;
+    align-items: center;
+    margin-top: 80px;
+    margin-right: auto;
+    column-gap: 25px;
+}
+
+.square {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+}
+
+.product-name {
+    max-width: 130px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.chel {
+    max-width: 192px;
+}
+
+.sweater {
+    background-color: #DBE4DB;
+    background-image: url(../pic/apparel-kids.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 270px;
+    width: 280px;
+}
+
+.sock {
+    background-color: #EADDD3;
+    background-image: url(../pic/holiday-shop.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 270px;
+    width: 280px;
+}
+
+.deer {
+    background-color: #F8F2DA;
+    background-image: url(../pic/toys.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 270px;
+    width: 280px;
+}
+
+.man {
+    background-color: #D5D4E1;
+    background-image: url(../pic/accessories.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 270px;
+    width: 280px;
 }
 
 /* arrow-button under category */
+
+.zxc {
+    display: flex;
+    column-gap: 25px;
+    align-items: center;
+}
 
 .category__btn {
     padding: 5px 12px;
@@ -93,7 +243,62 @@
     cursor: pointer;
 }
 
+/* description near arrow-button */
+
 .category__description {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    word-wrap: break-word;
+    width: 680px;
+}
+
+.trust-info {
+    display: flex;
+    column-gap: 120px;
+    margin-bottom: 90px;
+}
+
+/* Delivery heading */ 
+
+.info-cat__heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+/* Delivery */
+
+.info-cat__text-fat {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 34px;
+    color: #1E0606;
+}
+
+/* Guarantee and Credit */
+
+.info-cat__list-item {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 34px;
+    color: #1E0606;
+}
+
+/* Delivery info */
+
+.info-ctg__description {
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 400;
@@ -102,13 +307,117 @@
     color: #1E0606;
 }
 
-.zxc {
-    display: flex;
-    column-gap: 25px;
-    align-items: center;
+/* learn more */
+
+.trust-info__link {
+    padding: 11px 40px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border: none;
+    background: #000000;
+    cursor: pointer;
+    text-transform: uppercase;
 }
 
-.category__description {
-    word-wrap: break-word;
-    width: 680px;
+/* partners */
+
+.partners__list {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    column-gap: 127px;
+    margin-bottom: 100px;
+}
+
+/* section with map */
+
+.about-us-info {
+    display: flex;
+    align-items: stretch;
+    margin-right: auto;
+    column-gap: 57px;
+    margin-bottom: 50px;
+}
+
+/* design life kids */
+
+.info-dlk__heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+/* about us */
+
+.info-dlk__text {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 34px;
+}
+
+/* dlk description */
+
+.info-dlk__description {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    max-width: 483px;
+}
+
+/* buy now */
+
+.info-dlk__link {
+    padding: 11px 40px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border: none;
+    background: #000000;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+/* contacts */
+
+.info-contacts__heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+/* contacts description */
+
+.info-contacts__description {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E0606;
+    max-width: 483px;
+}
+
+.map {
+    width: 483px;
+    height: 196px;
+    border:0;
 }

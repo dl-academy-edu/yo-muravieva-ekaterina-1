@@ -1,3 +1,7 @@
+* {
+    padding: 0;
+}
+
 a {
     text-decoration: none;
     color: #1E0606;
@@ -19,6 +23,8 @@ li {
     margin: 0 auto;
 }
 
+/* navigation */
+
 .header__list-nav {
     display: flex;
     align-items: center;
@@ -37,6 +43,8 @@ li {
     text-transform: uppercase;
     color: #1E0606;
 }
+
+/* search and contact us */
 
 .header__list {
     column-gap: 25px;
@@ -61,4 +69,225 @@ li {
     color: #1E0606;
 }
 
+/* footer */
 
+.footer {
+    background-color: #434343;
+}
+
+.footer__container {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    column-gap: 20px;
+    margin-bottom: 50px;
+}
+
+/* headings in footer */
+
+.footer-element__heading {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #AAAAAA;
+}
+
+/* footer content */
+
+.footer__list-link {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+/* join */
+
+.connect__btn {
+    padding: 9px 22px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    border: none;
+    background: #000000;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+/* social networks */
+
+.soc-net__list {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    column-gap: 10px;
+}
+
+.title-icon {
+    align-items: center;
+    background-color: #666666;
+    border-radius: 50%;
+    display: flex;
+    flex-shrink: 0;
+    height: 30px;
+    width: 30px;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+/* rating stars */
+
+.rating__field {
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+
+.rating__name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+/* coopyright */
+
+.copyright-dlk {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.copyright-info {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #A2A2A2;
+    margin-bottom: auto;
+}
+
+/* heading on other pages */
+
+.pages__heading {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: uppercase;
+    color: #1E0606;
+}
+
+/* breadcrumbs */
+
+.breadcrumbs__list {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    column-gap: 20px;
+}
+
+.breadcrumbs-fat__link {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1E0606;
+}
+
+.breadcrumbs__link {
+    font-family: 'Crimson Text';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    opacity: 0.5;
+}
+
+.crumbs__btn {
+    border: none;
+    background: none;
+    background-image: url(../pic/arrow.svg);
+    width: 8px;
+    height: 12px;
+    left: 180px;
+    top: 233px;
+}
+
+/* pages numbers */
+
+.pages {
+    margin-bottom: 60px;
+}
+
+/* numb */
+
+.container-numb {
+    width: 100%;
+}
+
+/* numb ul */
+
+.pages-numb__list {
+    display: flex;
+    margin-left: 15%;
+    column-gap: 67px;
+}
+
+/* numb button style */
+
+.pagination__btn {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #1E0606;
+    /* font */
+    padding: 5px 12px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+/* < */
+
+.pagination__btn-back {
+    padding: 5px 12px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+/* > */
+
+.pagination__btn-forward {
+    padding: 5px 12px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+/* distance between arrows */
+
+.pagination__list {
+    display: flex;
+    text-align: center;
+    column-gap: 300px;
+}
