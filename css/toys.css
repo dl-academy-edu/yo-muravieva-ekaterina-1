@@ -1,0 +1,33 @@
+/* toy catalog */
+
+.toy-catalog {
+    margin-bottom: 50px;
+}
+
+.toy-catalog__list {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    column-gap: 20px;
+    flex-wrap: wrap;
+}
+
+.toy__name {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #1E0606;
+}
+
+.toy__cost {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #1E0606;
+}
